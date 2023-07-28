@@ -194,23 +194,20 @@
                                 <form>
                                     <div class="row">
                                         <div class="form-group col-12">
-                                            <label for="project" class="col-form-label">Project</label>
-                                            <select name="roleId" class="custom-select" id="project" required="required">
+                                            <label >Project</label>
+                                            <select name="projectDrop" class="custom-select" id="projectDrop" required="required">
                                                 <option value="none" selected="" disabled="">Select</option>
-                                                <option value="admin">Admin</option>
-                                                <option value="manager">Manager</option>
-                                                <option value="employee">Employee</option>
+                                                <option value="hrcm">Human Resources CRM</option>
+
                                             </select>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="form-group col-12">
-                                            <label for="assignedemployee" class="col-form-label">Assigned Employee</label>
-                                            <select name="roleId" class="custom-select" id="assignedemployee" required="required">
+                                            <label>Assigned Employee</label>
+                                            <select name="employeeDrop" class="custom-select" id="employeeDrop" required="required">
                                                 <option value="none" selected="" disabled="">Select</option>
-                                                <option value="admin">Admin</option>
-                                                <option value="manager">Manager</option>
-                                                <option value="employee">Employee</option>
+                                                <option value="jamal">Jamal</option>
                                             </select>
                                         </div>
                                     </div>
@@ -265,19 +262,29 @@
                                     <td>03/11/2022</td>
                                     <td>In Progress</td>
                                     <td>
-                                        <input class="btn btn-warning" type="submit" value="Update">
-                                        <input class="btn btn-info"  type="reset" value="Delete" style="background-color: #c7254e">
+                                        <a href="#">
+                                            <button class="btn btn-warning btn-sm">Update</button>
+                                        </a>
+                                        <a href="#">
+                                            <button class="btn btn-danger btn-sm">Delete</button>
+                                        </a>
+
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>PRJ002-Infra Upgrade</td>
                                     <td>Server LAN Settings</td>
                                     <td>Shaun Hayns</td>
-                                    <td>03/12/2022</td>
+                                    <td>04/12/2022</td>
                                     <td>UAT Testing</td>
                                     <td>
-                                        <input class="btn btn-warning" type="submit" value="Update">
-                                        <input class="btn btn-info"  type="reset" value="Delete" style="background-color: #c7254e">
+                                        <a href="#">
+                                            <button class="btn btn-warning btn-sm">Update</button>
+                                        </a>
+                                        <a href="#">
+                                            <button class="btn btn-danger btn-sm">Delete</button>
+                                        </a>
+
                                     </td>
                                 </tr>
                                 <tr>
@@ -287,8 +294,13 @@
                                     <td>03/08/2022</td>
                                     <td>Complete</td>
                                     <td>
-                                        <input class="btn btn-warning" type="submit" value="Update">
-                                        <input class="btn btn-info"  type="reset" value="Delete" style="background-color: #c7254e">
+                                        <a href="#">
+                                            <button class="btn btn-warning btn-sm">Update</button>
+                                        </a>
+                                        <a href="#">
+                                            <button class="btn btn-danger btn-sm">Delete</button>
+                                        </a>
+
                                     </td>
                                 </tr>
                                 <tr>
@@ -298,8 +310,13 @@
                                     <td>03/08/2022</td>
                                     <td>Open</td>
                                     <td>
-                                        <input class="btn btn-warning" type="submit" value="Update">
-                                        <input class="btn btn-info"  type="reset" value="Delete" style="background-color: #c7254e">
+                                        <a href="#">
+                                            <button class="btn btn-warning btn-sm">Update</button>
+                                        </a>
+                                        <a href="#">
+                                            <button class="btn btn-danger btn-sm">Delete</button>
+                                        </a>
+
                                     </td>
                                 </tr>
 
@@ -310,6 +327,10 @@
                         <!-- ============================================================== -->
                         <!-- end table  -->
                         <!-- ============================================================== -->
+
+                        <footer class="page-footer font-small blue fixed-bottom">
+                            <div class="footer-copyright text-center py-3">© 2023 Cydeo - All rights reserved</div>
+                        </footer>
 
                     </div>
                 </div>

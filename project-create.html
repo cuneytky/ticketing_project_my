@@ -206,12 +206,11 @@
                                     </div>
                                     <div class="row">
                                         <div class="form-group col-12">
-                                            <label for="assignedmanager" class="col-form-label">Assigned Manager</label>
-                                            <select name="roleId" class="custom-select" id="assignedmanager" required="required">
+                                            <label>Assigned Manager</label>
+                                            <select name="managerDrop" class="custom-select" id="managerDrop" required="required">
                                                 <option value="none" selected="" disabled="">Select</option>
-                                                <option value="admin">Admin</option>
-                                                <option value="manager">Manager</option>
-                                                <option value="employee">Employee</option>
+                                                <option value="ozzy">Ozzy</option>
+
                                             </select>
                                         </div>
                                     </div>
@@ -219,17 +218,17 @@
                                         <div class="form-group col-6">
                                             <label>Project Start Date</label>
                                             <br>
-                                            <input type="text" class="form-control date-inputmask" id="startdate" im-insert="true" placeholder="dd.mm.yyyy">
+                                            <input type="date" class="form-control">
                                         </div>
                                         <div class="form-group col-6">
                                             <label >Project End Date</label>
-                                            <input type="text" class="form-control date-inputmask" id="enddate" im-insert="true" placeholder="dd.mm.yyyy">
+                                            <input type="date" class="form-control">
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="form-group col-12">
                                             <label>Project Detail</label>
-                                            <textarea required="" class="form-control" placeholder="Write your project details..."></textarea>
+                                            <textarea class="form-control" placeholder="Write your project details..."></textarea>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -271,21 +270,33 @@
                                     <td>Delissa Nore</td>
                                     <td>Open</td>
                                     <td>
-                                        <input class="btn btn-warning" type="submit" value="Update">
-                                        <input class="btn btn-info"  type="reset" value="Delete" style="background-color: #c7254e">
-                                        <input class="btn btn-warning" type="submit" value="Submit" style="background-color:#5bc0de ">
+                                        <a href="#">
+                                            <button class="btn btn-warning btn-sm">Update</button>
+                                        </a>
+                                        <a href="#">
+                                            <button class="btn btn-danger btn-sm">Delete</button>
+                                        </a>
+                                        <a href="#">
+                                            <button class="btn btn-info btn-sm">Complete</button>
+                                        </a>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>PRJ001</td>
+                                    <td>PRJ002</td>
                                     <td>Infra Upgrade</td>
                                     <td>03/08/2022-03/17/2022</td>
                                     <td>Mike Smith</td>
                                     <td>In Progress</td>
                                     <td>
-                                        <input class="btn btn-warning" type="submit" value="Update">
-                                        <input class="btn btn-info"  type="reset" value="Delete" style="background-color: #c7254e">
-                                        <input class="btn btn-warning" type="submit" value="Submit" style="background-color:#5bc0de ">
+                                        <a href="#">
+                                            <button class="btn btn-warning btn-sm">Update</button>
+                                        </a>
+                                        <a href="#">
+                                            <button class="btn btn-danger btn-sm">Delete</button>
+                                        </a>
+                                        <a href="#">
+                                            <button class="btn btn-info btn-sm">Complete</button>
+                                        </a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -295,9 +306,15 @@
                                     <td>Mike Smith</td>
                                     <td>Complete</td>
                                     <td>
-                                        <input class="btn btn-warning" type="submit" value="Update">
-                                        <input class="btn btn-info"  type="reset" value="Delete" style="background-color: #c7254e">
-                                        <input class="btn btn-warning" type="submit" value="Submit" style="background-color:#5bc0de ">
+                                        <a href="#">
+                                            <button class="btn btn-warning btn-sm">Update</button>
+                                        </a>
+                                        <a href="#">
+                                            <button class="btn btn-danger btn-sm">Delete</button>
+                                        </a>
+                                        <a href="#">
+                                            <button class="btn btn-info btn-sm">Complete</button>
+                                        </a>
                                     </td>
                                 </tr>
 
@@ -309,6 +326,10 @@
                         <!-- ============================================================== -->
                         <!-- end table  -->
                         <!-- ============================================================== -->
+
+                        <footer class="page-footer font-small blue fixed-bottom">
+                            <div class="footer-copyright text-center py-3">© 2023 Cydeo - All rights reserved</div>
+                        </footer>
 
                     </div>
                 </div>
